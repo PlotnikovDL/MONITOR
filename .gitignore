@@ -1,0 +1,16 @@
+# 1C:EDT workspace metadata
+.metadata/
+
+# EDT project settings (optional — can be tracked if shared)
+MONITOR/.settings/
+
+# OS files
+Thumbs.db
+Desktop.ini
+.DS_Store
+
+# IDE
+.idea/
+*.swp
+*.swo
+*~
