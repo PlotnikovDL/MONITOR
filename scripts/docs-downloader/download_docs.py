@@ -9,10 +9,13 @@ import subprocess
 import urllib.parse
 from html import unescape
 
-DOCS_DIR = "c:/Projects/MONITOR/docs/v851doc"
+SCRIPT_DIR = os.path.dirname(os.path.abspath(__file__))
+REPO_ROOT = os.path.abspath(os.path.join(SCRIPT_DIR, "..", ".."))
+
+DOCS_DIR = os.path.join(REPO_ROOT, "docs", "v851doc")
 BASE = "https://its.1c.ru"
-URLS_FILE = "c:/Projects/MONITOR/docs/v851doc_urls.txt"
-SESSION = "c:/Projects/MONITOR/docs/_session.txt"
+URLS_FILE = os.path.join(SCRIPT_DIR, "v851doc_urls.txt")
+SESSION = os.path.join(SCRIPT_DIR, "_session.txt")
 UA = "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 Chrome/146.0.0.0"
 
 os.environ["MSYS_NO_PATHCONV"] = "1"

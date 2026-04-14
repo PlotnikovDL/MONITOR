@@ -18,7 +18,10 @@ Desktop.ini
 # Claude Code local settings
 .claude/
 
+# Node.js
+node_modules/
+
 # Secrets
 .env
-docs/its_cookies*.txt
-docs/its_session*.txt
+scripts/docs-downloader/its_cookies*.txt
+scripts/docs-downloader/_session.txt

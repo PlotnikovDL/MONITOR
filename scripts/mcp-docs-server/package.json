@@ -1,0 +1,13 @@
+{
+  "name": "project-docs-server",
+  "version": "1.0.0",
+  "description": "MCP server for searching project documentation in docs/",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.0.0"
+  }
+}
