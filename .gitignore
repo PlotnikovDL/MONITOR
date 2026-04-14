@@ -14,3 +14,11 @@ Desktop.ini
 *.swp
 *.swo
 *~
+
+# Claude Code local settings
+.claude/
+
+# Secrets
+.env
+docs/its_cookies*.txt
+docs/its_session*.txt

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonPicture xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="43c05bd5-58d7-4023-9dd5-8d6d704cf205">
+  <name>ЛоготипЯндекс</name>
+  <synonym>
+    <key>ru</key>
+    <value>Логотип Яндекс</value>
+  </synonym>
+</mdclass:CommonPicture>

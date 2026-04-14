@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonPicture xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="2b9ee3b8-8345-4a31-b740-94557ff68b05">
+  <name>СозданиеАвтономногоРабочегоМеста</name>
+  <synonym>
+    <key>ru</key>
+    <value>Создание автономного рабочего места</value>
+  </synonym>
+</mdclass:CommonPicture>

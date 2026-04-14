@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:StyleItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="b7bfd85f-f1cf-4a22-bfe0-9d0ef71b03c5">
+  <name>ПолнотекстовыйПоискЦветЗаголовкаРекомендаций</name>
+  <synonym>
+    <key>ru</key>
+    <value>Полнотекстовый поиск цвет заголовка рекомендаций</value>
+  </synonym>
+  <value xsi:type="core:ColorValue">
+    <value xsi:type="core:ColorRef">
+      <color>Palette.Green</color>
+    </value>
+  </value>
+</mdclass:StyleItem>

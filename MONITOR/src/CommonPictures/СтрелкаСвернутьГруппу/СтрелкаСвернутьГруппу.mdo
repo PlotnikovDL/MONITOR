@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonPicture xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="3af06459-b5c9-4c40-b3a1-179b60bda1c0">
+  <name>СтрелкаСвернутьГруппу</name>
+  <synonym>
+    <key>ru</key>
+    <value>Стрелка свернуть группу</value>
+  </synonym>
+</mdclass:CommonPicture>
