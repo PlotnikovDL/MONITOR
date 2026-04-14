@@ -1,0 +1,62 @@
+# Пакетная установка 1C:EDT и плагина 1С:Language Tool
+# Source: https://its.1c.ru/db/edtdoc/content/10620/hdoc
+
+# Пакетная установка 1C:EDT и плагина 1С:Language Tool
+
+При организации сборочных конвейеров CI / CD требуется пакетная установка среды
+разработки и, возможно, некоторых плагинов.
+
+Далее приведены примеры файлов настройки докер образа в операционной системе Linux для
+1C:EDT и плагина 1С:Language Tool.
+
+## Установка 1C:EDT
+
+Примечание: Переменная JAVA_DEB_URL должна быть определена заранее.
+
+# Install OpenJDK+JFX
+mkdir -p /tmp/java; \
+curl -f -o /tmp/java/jdk.deb "$JAVA_DEB_URL"; \
+apt install --no-install-recommends -y /tmp/java/jdk.deb; \
+rm -rf /tmp/java; \
+ls /usr/lib/jvm; \
+ls $JAVA_HOME; \
+echo "ru_RU.UTF-8 UTF-8" >> /etc/locale.gen \
+&& locale-gen ru_RU.UTF-8 \
+&& update-locale; \
+# Install 1C:EDT
+mkdir -p /tmp/edt; \
+curl -f -o /tmp/edt/1cedt.tar.gz "$EDT_URL"; \
+tar -xvf "/tmp/edt/1cedt.tar.gz" -C "/tmp/edt"; \
+rm -f "/tmp/edt/1cedt.tar.gz"; \
+chmod +x /tmp/edt/1ce-installer-cli \
+&& /tmp/edt/1ce-installer-cli install --ignore-hardware-checks --ignore-signature-warnings; \
+rm -rf /tmp/edt; \
+ls /opt/1C/1CE/components; \
+dbus-uuidgen > /var/lib/dbus/machine-id; \
+mem_limit=$( sed -n 's/^-Xmx//p' "$EDT_HOME/1cedt.ini" ); \
+echo Changing default memory limit from ${mem_limit} to ${EDT_MEMORY_LIMIT}; \
+sed -i "s/^\(-Xmx\).*$/\1$EDT_MEMORY_LIMIT/" "$EDT_HOME/1cedt.ini"; \
+cat "$EDT_HOME/1cedt.ini"; \
+cat "$EDT_HOME/configuration/config.ini"; \
+chmod +x /usr/bin/ring; \
+ls $EDT_HOME; \
+chmod +x /usr/bin/1cedtcli; \
+
+## Установка 1С:Language Tool
+
+Примечание: Переменная LANGTOOL_DISTR_SERVER должна быть определена
+заранее.
+
+# Install 1C:Language Tool
+$EDT_HOME/1cedt
+-clean
+-purgeHistory
+-application org.eclipse.equinox.p2.director
+-noSplash
+-repository "${LANGTOOL_DISTR_SERVER}/repo.zip!"
+-installIUs com.e1c.langtool.v8.dt.feature.feature.group,
+com.e1c.langtool.microsoft.feature.feature.group,
+com.e1c.langtool.yandex.feature.feature.group,
+com.e1c.langtool.google.feature.feature.group; \
+
+На уровень выше: Автоматизация тестирования с доставкой изменений в рабочие базы

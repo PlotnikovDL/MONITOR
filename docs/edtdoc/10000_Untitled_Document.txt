@@ -1,0 +1,30 @@
+# Untitled Document
+# Source: https://its.1c.ru/db/edtdoc/content/10000/hdoc
+
+# 1C:Enterprise Development Tools
+
+Руководство разработчика
+
+Издание 2026.1.0(31.03.2026)
+
+ООО «1С-Софт»
+
+Селезневская ул., 21
+
+Москва
+
+Россия
+
+телефон: +7 (495) 737-92-57
+
+факс: +7 (495) 681-44-07
+
+1c@1c.ru
+
+https://1c.ru/
+
+https://v8.1c.ru/
+
+https://edt.1c.ru/
+
+https://users.v8.1c.ru/

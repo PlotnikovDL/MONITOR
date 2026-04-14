@@ -1,0 +1,36 @@
+# Удаление 1C:EDT, 1C:EDT Start и «Установщика»
+# Source: https://its.1c.ru/db/edtdoc/content/10385/hdoc
+
+# Удаление 1C:EDT, 1C:EDT Start и «Установщика»
+
+Чтобы удалить с компьютера 1C:EDT выполните следующие действия:
+
+- Завершите работу 1C:EDT Start;
+
+- Удалите каталог с данными пользователя. При стандартной установке этот каталог находится:
+
+Windows%USERPROFILE%\AppData\Local\1C\1cedtstartLinux~/.local/share/1C/1cedtstartmacOS~/Library/Application Support/1C/1cedtstart
+
+- Удалите все продукты 1C:EDT;
+- Запустите «Установщик» (версия вашего «Установщика» может отличаться от указанной здесь версии). При стандартной установке исполняемый файл находится:
+
+Windows%ProgramFiles%\1C\1CE\components\1c-enterprise-installer-1.12.7+10-x86_64\1ce-installer.exeLinux/opt/1C/1CE/components/1c-enterprise-installer-1.12.7+10-x86_64/1ce-installermacOS/Applications/1C/1CE/components/1c-enterprise-installer-1.12.7+10-x86_64/1ce-installer.app
+
+- Для всех продуктов 1C:Enterprise Development Tools выберите действие Удалить;
+
+- Нажмите Удалить.
+
+- Удалите файлы «Установщика». При стандартной установке эти файлы находятся:
+- Домашняя директория программных продуктов:
+
+Windows х86%ProgramFiles%\1C\1CEWindows х86_64%ProgramW6432%\1C\1CELinux/opt/1C/1CEmacOS/Applications/1C/1CE
+
+- Реестр программных продуктов — каталог inventory и файлы inventory.loc и inventory.write.lock:
+
+Windows%ProgramData%\1C\1CELinux/etc/1C/1CEmacOS/Library/Application Support/1C/1CE
+
+- Журнальные файлы:
+
+Windows — все каталоги по маске:%TEMP%\1ce-installer*Linux — все каталоги по маске:/tmp/1ce-installer*
+
+На уровень выше: Установка, обновление
