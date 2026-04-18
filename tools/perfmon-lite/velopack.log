@@ -1,0 +1,134 @@
+[stub:59208] [16:23:37] [INFO] --
+[stub:59208] [16:23:37] [INFO] Starting Velopack Stub (at "C:\\Projects\\MONITOR\\tools\\perfmon-lite\\PerformanceMonitorLite.exe")
+[stub:59208] [16:23:37] [INFO] Stub about to start Update.exe (C:\Projects\MONITOR\tools\perfmon-lite\Update.exe) with args: ["start", "--"]
+[stub:59208] [16:23:37] [INFO] Successfully started Update.exe
+[update:64488] [16:23:37] [INFO] --
+[update:64488] [16:23:37] [INFO] Starting Velopack Updater (0.0.1298)
+[update:64488] [16:23:37] [INFO]     Location: C:\Projects\MONITOR\tools\perfmon-lite\Update.exe
+[update:64488] [16:23:37] [INFO]     CWD: C:\Projects\MONITOR\tools\perfmon-lite
+[update:64488] [16:23:37] [INFO]     Verbose: false
+[update:64488] [16:23:37] [INFO]     Silent: false
+[update:64488] [16:23:37] [INFO]     Log File: None
+[update:64488] [16:23:37] [INFO] Command: Start
+[update:64488] [16:23:37] [INFO]     Wait: NoWait
+[update:64488] [16:23:37] [INFO]     Exe Name: None
+[update:64488] [16:23:37] [INFO]     Exe Args: None
+[update:64488] [16:23:37] [INFO] Auto-locating app manifest...
+[update:64488] [16:23:37] [INFO] About to launch: '"C:\\Projects\\MONITOR\\tools\\perfmon-lite\\current\\PerformanceMonitorLite.exe"' in dir '"C:\\Projects\\MONITOR\\tools\\perfmon-lite\\current"'
+[lib-csharp:30600] [16:23:38] [Information] Initialising WindowsVelopackLocator
+[lib-csharp:30600] [16:23:38] [Information] WindowsVelopackLocator: Update.exe in parent dir, Located valid manifest file at: C:\Projects\MONITOR\tools\perfmon-lite\current\sq.version
+[lib-csharp:30600] [16:23:38] [Information] Initialised WindowsVelopackLocator for PerformanceMonitorLite v2.7.0
+[lib-csharp:30600] [16:23:38] [Information] Starting VelopackApp.Run (library version 0.0.1298).
+[lib-csharp:30600] [16:23:38] [Information] Setting current process explicit AppUserModelID to 'velopack.PerformanceMonitorLite'
+[lib-csharp:30600] [16:23:44] [Warning] No staging userId in file 'C:\Projects\MONITOR\tools\perfmon-lite\packages\.betaId', creating a new one.
+[lib-csharp:30600] [16:23:44] [Information] Generated new staging userId: ac965b62-9679-4622-b965-51080f29af27
+[lib-csharp:30600] [16:23:44] [Debug] Retrieving latest release feed.
+[lib-csharp:30600] [16:24:16] [Trace] System.ArgumentException: Could not find asset called 'releases.lite.json' in GitHub Release 'v2.3.0'.
+   at Velopack.Sources.GithubSource.GetAssetUrlFromName(GithubRelease release, String assetName)
+   at Velopack.Sources.GitBase`1.GetReleaseFeed(IVelopackLogger logger, String appId, String channel, Nullable`1 stagingId, VelopackAsset latestLocalRelease)
+[lib-csharp:30600] [16:24:16] [Trace] System.ArgumentException: Could not find asset called 'releases.lite.json' in GitHub Release 'v2.2.0'.
+   at Velopack.Sources.GithubSource.GetAssetUrlFromName(GithubRelease release, String assetName)
+   at Velopack.Sources.GitBase`1.GetReleaseFeed(IVelopackLogger logger, String appId, String channel, Nullable`1 stagingId, VelopackAsset latestLocalRelease)
+[lib-csharp:30600] [16:24:16] [Trace] System.ArgumentException: Could not find asset called 'releases.lite.json' in GitHub Release 'v2.1.0'.
+   at Velopack.Sources.GithubSource.GetAssetUrlFromName(GithubRelease release, String assetName)
+   at Velopack.Sources.GitBase`1.GetReleaseFeed(IVelopackLogger logger, String appId, String channel, Nullable`1 stagingId, VelopackAsset latestLocalRelease)
+[lib-csharp:30600] [16:24:16] [Trace] System.ArgumentException: Could not find asset called 'releases.lite.json' in GitHub Release 'v2.0.0 - The SQL'.
+   at Velopack.Sources.GithubSource.GetAssetUrlFromName(GithubRelease release, String assetName)
+   at Velopack.Sources.GitBase`1.GetReleaseFeed(IVelopackLogger logger, String appId, String channel, Nullable`1 stagingId, VelopackAsset latestLocalRelease)
+[lib-csharp:30600] [16:24:16] [Information] No updates, remote version (2.7.0) is not newer than current version (2.7.0) and / or downgrade is not enabled.
+[stub:55396] [16:31:44] [INFO] --
+[stub:55396] [16:31:44] [INFO] Starting Velopack Stub (at "C:\\Projects\\MONITOR\\tools\\perfmon-lite\\PerformanceMonitorLite.exe")
+[stub:55396] [16:31:44] [INFO] Stub about to start Update.exe (C:\Projects\MONITOR\tools\perfmon-lite\Update.exe) with args: ["start", "--"]
+[stub:55396] [16:31:44] [INFO] Successfully started Update.exe
+[update:79604] [16:31:44] [INFO] --
+[update:79604] [16:31:44] [INFO] Starting Velopack Updater (0.0.1298)
+[update:79604] [16:31:44] [INFO]     Location: C:\Projects\MONITOR\tools\perfmon-lite\Update.exe
+[update:79604] [16:31:44] [INFO]     CWD: C:\Projects\MONITOR\tools\perfmon-lite
+[update:79604] [16:31:44] [INFO]     Verbose: false
+[update:79604] [16:31:44] [INFO]     Silent: false
+[update:79604] [16:31:44] [INFO]     Log File: None
+[update:79604] [16:31:44] [INFO] Command: Start
+[update:79604] [16:31:44] [INFO]     Wait: NoWait
+[update:79604] [16:31:44] [INFO]     Exe Name: None
+[update:79604] [16:31:44] [INFO]     Exe Args: None
+[update:79604] [16:31:44] [INFO] Auto-locating app manifest...
+[update:79604] [16:31:44] [INFO] About to launch: '"C:\\Projects\\MONITOR\\tools\\perfmon-lite\\current\\PerformanceMonitorLite.exe"' in dir '"C:\\Projects\\MONITOR\\tools\\perfmon-lite\\current"'
+[lib-csharp:60572] [16:31:44] [Information] Initialising WindowsVelopackLocator
+[lib-csharp:60572] [16:31:44] [Information] WindowsVelopackLocator: Update.exe in parent dir, Located valid manifest file at: C:\Projects\MONITOR\tools\perfmon-lite\current\sq.version
+[lib-csharp:60572] [16:31:44] [Information] Initialised WindowsVelopackLocator for PerformanceMonitorLite v2.7.0
+[lib-csharp:60572] [16:31:44] [Information] Starting VelopackApp.Run (library version 0.0.1298).
+[lib-csharp:60572] [16:31:44] [Information] Setting current process explicit AppUserModelID to 'velopack.PerformanceMonitorLite'
+[lib-csharp:60572] [16:31:51] [Information] Loaded existing staging userId: ac965b62-9679-4622-b965-51080f29af27
+[lib-csharp:60572] [16:31:51] [Debug] Retrieving latest release feed.
+[lib-csharp:60572] [16:32:00] [Trace] System.ArgumentException: Could not find asset called 'releases.lite.json' in GitHub Release 'v2.3.0'.
+   at Velopack.Sources.GithubSource.GetAssetUrlFromName(GithubRelease release, String assetName)
+   at Velopack.Sources.GitBase`1.GetReleaseFeed(IVelopackLogger logger, String appId, String channel, Nullable`1 stagingId, VelopackAsset latestLocalRelease)
+[lib-csharp:60572] [16:32:00] [Trace] System.ArgumentException: Could not find asset called 'releases.lite.json' in GitHub Release 'v2.2.0'.
+   at Velopack.Sources.GithubSource.GetAssetUrlFromName(GithubRelease release, String assetName)
+   at Velopack.Sources.GitBase`1.GetReleaseFeed(IVelopackLogger logger, String appId, String channel, Nullable`1 stagingId, VelopackAsset latestLocalRelease)
+[lib-csharp:60572] [16:32:00] [Trace] System.ArgumentException: Could not find asset called 'releases.lite.json' in GitHub Release 'v2.1.0'.
+   at Velopack.Sources.GithubSource.GetAssetUrlFromName(GithubRelease release, String assetName)
+   at Velopack.Sources.GitBase`1.GetReleaseFeed(IVelopackLogger logger, String appId, String channel, Nullable`1 stagingId, VelopackAsset latestLocalRelease)
+[lib-csharp:60572] [16:32:00] [Trace] System.ArgumentException: Could not find asset called 'releases.lite.json' in GitHub Release 'v2.0.0 - The SQL'.
+   at Velopack.Sources.GithubSource.GetAssetUrlFromName(GithubRelease release, String assetName)
+   at Velopack.Sources.GitBase`1.GetReleaseFeed(IVelopackLogger logger, String appId, String channel, Nullable`1 stagingId, VelopackAsset latestLocalRelease)
+[lib-csharp:60572] [16:32:00] [Information] No updates, remote version (2.7.0) is not newer than current version (2.7.0) and / or downgrade is not enabled.
+[stub:70232] [16:40:45] [INFO] --
+[stub:70232] [16:40:45] [INFO] Starting Velopack Stub (at "C:\\Projects\\MONITOR\\tools\\perfmon-lite\\PerformanceMonitorLite.exe")
+[stub:70232] [16:40:45] [INFO] Stub about to start Update.exe (C:\Projects\MONITOR\tools\perfmon-lite\Update.exe) with args: ["start", "--"]
+[stub:70232] [16:40:45] [INFO] Successfully started Update.exe
+[update:76584] [16:40:45] [INFO] --
+[update:76584] [16:40:45] [INFO] Starting Velopack Updater (0.0.1298)
+[update:76584] [16:40:45] [INFO]     Location: C:\Projects\MONITOR\tools\perfmon-lite\Update.exe
+[update:76584] [16:40:45] [INFO]     CWD: C:\Projects\MONITOR\tools\perfmon-lite
+[update:76584] [16:40:45] [INFO]     Verbose: false
+[update:76584] [16:40:45] [INFO]     Silent: false
+[update:76584] [16:40:45] [INFO]     Log File: None
+[update:76584] [16:40:45] [INFO] Command: Start
+[update:76584] [16:40:45] [INFO]     Wait: NoWait
+[update:76584] [16:40:45] [INFO]     Exe Name: None
+[update:76584] [16:40:45] [INFO]     Exe Args: None
+[update:76584] [16:40:45] [INFO] Auto-locating app manifest...
+[update:76584] [16:40:45] [INFO] About to launch: '"C:\\Projects\\MONITOR\\tools\\perfmon-lite\\current\\PerformanceMonitorLite.exe"' in dir '"C:\\Projects\\MONITOR\\tools\\perfmon-lite\\current"'
+[lib-csharp:76232] [16:40:45] [Information] Initialising WindowsVelopackLocator
+[lib-csharp:76232] [16:40:45] [Information] WindowsVelopackLocator: Update.exe in parent dir, Located valid manifest file at: C:\Projects\MONITOR\tools\perfmon-lite\current\sq.version
+[lib-csharp:76232] [16:40:45] [Information] Initialised WindowsVelopackLocator for PerformanceMonitorLite v2.7.0
+[lib-csharp:76232] [16:40:45] [Information] Starting VelopackApp.Run (library version 0.0.1298).
+[lib-csharp:76232] [16:40:45] [Information] Setting current process explicit AppUserModelID to 'velopack.PerformanceMonitorLite'
+[stub:61584] [16:41:03] [INFO] --
+[stub:61584] [16:41:03] [INFO] Starting Velopack Stub (at "C:\\Projects\\MONITOR\\tools\\perfmon-lite\\PerformanceMonitorLite.exe")
+[stub:61584] [16:41:03] [INFO] Stub about to start Update.exe (C:\Projects\MONITOR\tools\perfmon-lite\Update.exe) with args: ["start", "--"]
+[stub:61584] [16:41:03] [INFO] Successfully started Update.exe
+[update:24352] [16:41:03] [INFO] --
+[update:24352] [16:41:03] [INFO] Starting Velopack Updater (0.0.1298)
+[update:24352] [16:41:03] [INFO]     Location: C:\Projects\MONITOR\tools\perfmon-lite\Update.exe
+[update:24352] [16:41:03] [INFO]     CWD: C:\Projects\MONITOR\tools\perfmon-lite
+[update:24352] [16:41:03] [INFO]     Verbose: false
+[update:24352] [16:41:03] [INFO]     Silent: false
+[update:24352] [16:41:03] [INFO]     Log File: None
+[update:24352] [16:41:03] [INFO] Command: Start
+[update:24352] [16:41:03] [INFO]     Wait: NoWait
+[update:24352] [16:41:03] [INFO]     Exe Name: None
+[update:24352] [16:41:03] [INFO]     Exe Args: None
+[update:24352] [16:41:03] [INFO] Auto-locating app manifest...
+[update:24352] [16:41:03] [INFO] About to launch: '"C:\\Projects\\MONITOR\\tools\\perfmon-lite\\current\\PerformanceMonitorLite.exe"' in dir '"C:\\Projects\\MONITOR\\tools\\perfmon-lite\\current"'
+[lib-csharp:52372] [16:41:03] [Information] Initialising WindowsVelopackLocator
+[lib-csharp:52372] [16:41:03] [Information] WindowsVelopackLocator: Update.exe in parent dir, Located valid manifest file at: C:\Projects\MONITOR\tools\perfmon-lite\current\sq.version
+[lib-csharp:52372] [16:41:03] [Information] Initialised WindowsVelopackLocator for PerformanceMonitorLite v2.7.0
+[lib-csharp:52372] [16:41:03] [Information] Starting VelopackApp.Run (library version 0.0.1298).
+[lib-csharp:52372] [16:41:03] [Information] Setting current process explicit AppUserModelID to 'velopack.PerformanceMonitorLite'
+[lib-csharp:52372] [16:41:09] [Information] Loaded existing staging userId: ac965b62-9679-4622-b965-51080f29af27
+[lib-csharp:52372] [16:41:09] [Debug] Retrieving latest release feed.
+[lib-csharp:52372] [16:41:16] [Trace] System.ArgumentException: Could not find asset called 'releases.lite.json' in GitHub Release 'v2.3.0'.
+   at Velopack.Sources.GithubSource.GetAssetUrlFromName(GithubRelease release, String assetName)
+   at Velopack.Sources.GitBase`1.GetReleaseFeed(IVelopackLogger logger, String appId, String channel, Nullable`1 stagingId, VelopackAsset latestLocalRelease)
+[lib-csharp:52372] [16:41:16] [Trace] System.ArgumentException: Could not find asset called 'releases.lite.json' in GitHub Release 'v2.2.0'.
+   at Velopack.Sources.GithubSource.GetAssetUrlFromName(GithubRelease release, String assetName)
+   at Velopack.Sources.GitBase`1.GetReleaseFeed(IVelopackLogger logger, String appId, String channel, Nullable`1 stagingId, VelopackAsset latestLocalRelease)
+[lib-csharp:52372] [16:41:16] [Trace] System.ArgumentException: Could not find asset called 'releases.lite.json' in GitHub Release 'v2.1.0'.
+   at Velopack.Sources.GithubSource.GetAssetUrlFromName(GithubRelease release, String assetName)
+   at Velopack.Sources.GitBase`1.GetReleaseFeed(IVelopackLogger logger, String appId, String channel, Nullable`1 stagingId, VelopackAsset latestLocalRelease)
+[lib-csharp:52372] [16:41:16] [Trace] System.ArgumentException: Could not find asset called 'releases.lite.json' in GitHub Release 'v2.0.0 - The SQL'.
+   at Velopack.Sources.GithubSource.GetAssetUrlFromName(GithubRelease release, String assetName)
+   at Velopack.Sources.GitBase`1.GetReleaseFeed(IVelopackLogger logger, String appId, String channel, Nullable`1 stagingId, VelopackAsset latestLocalRelease)
+[lib-csharp:52372] [16:41:16] [Information] No updates, remote version (2.7.0) is not newer than current version (2.7.0) and / or downgrade is not enabled.

@@ -2,7 +2,13 @@
   "mcpServers": {
     "project-docs": {
       "command": "node",
-      "args": ["scripts/mcp-docs-server/index.js"]
+      "args": [
+        "scripts/mcp-docs-server/index.js"
+      ]
+    },
+    "sql-monitor": {
+      "type": "http",
+      "url": "http://localhost:5151/"
     }
   }
 }

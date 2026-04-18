@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
+<metadata>
+<id>PerformanceMonitorLite</id>
+<title>PerformanceMonitorLite</title>
+<description>PerformanceMonitorLite</description>
+<authors>PerformanceMonitorLite</authors>
+<version>2.7.0</version>
+<channel>lite</channel>
+<mainExe>PerformanceMonitorLite.exe</mainExe>
+<os>win</os>
+<rid>win</rid>
+<shortcutLocations>Desktop,StartMenuRoot</shortcutLocations>
+<shortcutAmuid>velopack.PerformanceMonitorLite</shortcutAmuid>
+</metadata>
+</package>
