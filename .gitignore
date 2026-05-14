@@ -24,4 +24,7 @@ node_modules/
 # Secrets
 .env
 scripts/docs-downloader/its_cookies*.txt
-scripts/docs-downloader/_session.txt
+
+# Docs downloader scratch (sessions, probes, tests, logs, bytecode)
+scripts/docs-downloader/_*
+scripts/docs-downloader/__pycache__/
